@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="02_portafolioAcademico">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="02_portafolioAcademicoEJB.jar" deploy-path="/" handle="module:/resource/02_portafolioAcademicoEJB/02_portafolioAcademicoEJB">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="02_portafolioAcademicoWeb.war" deploy-path="/" handle="module:/resource/02_portafolioAcademicoWeb/02_portafolioAcademicoWeb">
+            <dependent-object/>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
